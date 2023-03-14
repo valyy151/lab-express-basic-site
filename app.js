@@ -10,9 +10,9 @@ app.get('/', (request, response, next) => {
 	response.sendFile(__dirname + '/views/home.html');
 });
 
-app.get('/about', (request, response, next) => {
+app.get('/philosophy', (request, response, next) => {
 	//  response.send('here is homepage');
-	response.sendFile(__dirname + '/views/about.html');
+	response.sendFile(__dirname + '/views/philosophy.html');
 });
 
 app.get('/teachings', (request, response, next) => {

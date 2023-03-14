@@ -1,6 +1,38 @@
+body,
+html {
+	margin: 0;
+	background-color: black;
+	overflow: hidden;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-image: linear-gradient(to left, #08254f, #763573, #d44968, #ff8a3a, #ebe112);
+	height: 5.5vh;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav div {
+	margin: 0 1vw;
+}
+
+nav div a {
+	color: white;
+	margin: 0 0.5vw;
+	font-size: 1.5em;
+	font-weight: 500;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 section {
-	width: 99vw;
-	height: 50vh;
+	width: 100vw;
+	height: 100vh;
 	background-image: url('../images/confucius.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -11,7 +43,18 @@ section {
 section p {
 	color: white;
 	position: relative;
-	width: 4vw;
+	width: 8vw;
+}
+
+article {
+	background-image: url('../images/teachings.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	color: white;
+	height: 100vh;
+	position: relative;
+	font-size: large;
 }
 
 #morality {
@@ -46,9 +89,69 @@ section p {
 
 #wrapper {
 	width: 100vw;
-	height: 50vh;
+	height: 100vh;
 	background: black;
 	z-index: 1;
 	position: absolute;
 	opacity: 0.6;
+}
+#teachingsWrapper {
+	width: 100vw;
+	height: 100vh;
+	background: black;
+	z-index: 1;
+	position: absolute;
+	opacity: 0.75;
+}
+
+article h1 {
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	margin: 0;
+	font-size: 2.5em;
+	padding-top: 2vh;
+	font-weight: 400;
+}
+.teachingsDivs {
+	z-index: 2;
+	position: relative;
+	margin-left: 3vw;
+
+	width: 60vw;
+}
+
+#philosophyDiv {
+	color: white;
+	background-image: url('../images/philosophy.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	margin: 0;
+	z-index: -1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#philosophyDiv * {
+	z-index: 1;
+	position: relative;
+	font-size: xx-large;
+	width: 75vw;
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+}
+
+#philosophyWrapper {
+	width: 100vw;
+	height: 100vh;
+	background: black;
+	z-index: 1;
+	position: absolute;
+	opacity: 0.5;
 }
