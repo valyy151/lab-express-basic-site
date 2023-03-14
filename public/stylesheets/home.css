@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to left, #08254f, #763573, #d44968, #ff8a3a, #ebe112);
+    height: 5.5vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav div {
+    margin: 0 1vw;
+}
+
+nav div a {
+    color: white;
+    margin: 0 0.5vw;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
