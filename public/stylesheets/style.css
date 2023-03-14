@@ -1,0 +1,54 @@
+section {
+	width: 99vw;
+	height: 50vh;
+	background-image: url('../images/confucius.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+}
+
+section p {
+	color: white;
+	position: relative;
+	width: 4vw;
+}
+
+#morality {
+	left: 10vw;
+	top: 10vh;
+	z-index: 1;
+}
+
+#relationships {
+	left: 30vw;
+	top: 20vh;
+	z-index: 1;
+}
+
+#justice {
+	left: 50vw;
+	top: 30vh;
+	z-index: 1;
+}
+
+#kindness {
+	left: 70vw;
+	top: 20vh;
+	z-index: 1;
+}
+
+#sincerity {
+	left: 90vw;
+	top: 10vh;
+	z-index: 1;
+}
+
+#wrapper {
+	width: 100vw;
+	height: 50vh;
+	background: black;
+	z-index: 1;
+	position: absolute;
+	opacity: 0.6;
+}
