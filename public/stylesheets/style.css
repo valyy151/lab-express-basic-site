@@ -3,13 +3,14 @@ html {
 	margin: 0;
 	background-color: black;
 	overflow: hidden;
+	cursor: default;
 }
 
 nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-image: linear-gradient(to left, #08254f, #763573, #d44968, #ff8a3a, #ebe112);
+	background-image: linear-gradient(to left, #08254f, #763573, #d44968, #ff8a3a, #ebb812);
 	height: 5.5vh;
 	margin: 0;
 }
@@ -43,10 +44,10 @@ section {
 section p {
 	color: white;
 	position: relative;
-	font-size: 3em;
-	font-style: oblique;
+	font-size: 5em;
+	font-style: italic;
 	margin: 0;
-	font-weight: 600;
+	font-weight: 200;
 }
 
 article {
@@ -57,35 +58,45 @@ article {
 	color: white;
 	height: 100vh;
 	position: relative;
-	font-size: large;
+}
+
+article p {
+	font-size: 1.3em;
+	font-weight: 400;
+	font-style: italic;
+}
+
+article h2 {
+	font-weight: 500;
+	font-size: 1.65em;
 }
 
 #morality {
-	left: 10vw;
-	top: 10vh;
-	z-index: 1;
-}
-
-#relationships {
-	left: 25vw;
-	top: 15vh;
+	left: 2vw;
+	top: 5vh;
 	z-index: 1;
 }
 
 #justice {
-	left: 50vw;
-	top: 30vh;
+	left: 40vw;
+	top: 25vh;
 	z-index: 1;
 }
 
 #kindness {
-	left: 65vw;
-	top: 10vh;
+	left: 10vw;
+	top: 40vh;
 	z-index: 1;
 }
 
 #sincerity {
-	left: 80vw;
+	left: 75vw;
+	top: 20vh;
+	z-index: 1;
+}
+
+#relationships {
+	left: 60vw;
 	top: 5vh;
 	z-index: 1;
 }
@@ -96,7 +107,7 @@ article {
 	background: black;
 	z-index: 1;
 	position: absolute;
-	opacity: 0.6;
+	opacity: 0.7;
 }
 #teachingsWrapper {
 	width: 100vw;
@@ -104,7 +115,7 @@ article {
 	background: black;
 	z-index: 1;
 	position: absolute;
-	opacity: 0.75;
+	opacity: 0.85;
 }
 
 article h1 {
@@ -113,13 +124,13 @@ article h1 {
 	text-align: center;
 	margin: 0;
 	font-size: 2.5em;
-	padding-top: 2vh;
+	padding-top: 3.5vh;
 	font-weight: 400;
 }
 .teachingsDivs {
 	z-index: 2;
 	position: relative;
-	margin-left: 3vw;
+	margin-left: 5vw;
 	text-align: justify;
 	width: 60vw;
 	font-weight: 500;
@@ -137,14 +148,16 @@ article h1 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	font-style: italic;
 	text-align: justify;
 }
 
 #philosophyDiv h1 {
 	margin-bottom: 25vh;
+	margin-top: 2vh;
 	font-size: 3em;
 	font-weight: 400;
+	font-style: normal;
 }
 
 #philosophyDiv * {
@@ -165,7 +178,7 @@ h1 {
 	background: black;
 	z-index: 1;
 	position: absolute;
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 #quotesSection {
@@ -182,4 +195,32 @@ h1 {
 	margin: 2.5vh 2.5vw;
 	width: 50vw;
 	font-style: italic;
+	font-weight: 400;
+}
+
+#legacySection {
+	background-image: url('../images/legacy.jpg');
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+
+#legacySection p,
+#legacySection h3 {
+	position: relative;
+	z-index: 1;
+}
+
+#legacySection p {
+	font-size: 1.75em;
+
+	margin-left: 5vw;
+	margin-top: 10vh;
+}
+#legacySection h3 {
+	margin: 0;
+	font-size: 2em;
+	text-align: center;
+	padding-top: 3vh;
+	font-weight: 400;
 }
