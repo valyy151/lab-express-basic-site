@@ -43,7 +43,10 @@ section {
 section p {
 	color: white;
 	position: relative;
-	width: 8vw;
+	font-size: 3em;
+	font-style: oblique;
+	margin: 0;
+	font-weight: 600;
 }
 
 article {
@@ -64,8 +67,8 @@ article {
 }
 
 #relationships {
-	left: 30vw;
-	top: 20vh;
+	left: 25vw;
+	top: 15vh;
 	z-index: 1;
 }
 
@@ -76,14 +79,14 @@ article {
 }
 
 #kindness {
-	left: 70vw;
-	top: 20vh;
+	left: 65vw;
+	top: 10vh;
 	z-index: 1;
 }
 
 #sincerity {
-	left: 90vw;
-	top: 10vh;
+	left: 80vw;
+	top: 5vh;
 	z-index: 1;
 }
 
@@ -117,8 +120,9 @@ article h1 {
 	z-index: 2;
 	position: relative;
 	margin-left: 3vw;
-
+	text-align: justify;
 	width: 60vw;
+	font-weight: 500;
 }
 
 #philosophyDiv {
@@ -133,6 +137,14 @@ article h1 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
+	text-align: justify;
+}
+
+#philosophyDiv h1 {
+	margin-bottom: 25vh;
+	font-size: 3em;
+	font-weight: 400;
 }
 
 #philosophyDiv * {
@@ -153,5 +165,21 @@ h1 {
 	background: black;
 	z-index: 1;
 	position: absolute;
-	opacity: 0.5;
+	opacity: 0.7;
+}
+
+#quotesSection {
+	background-image: url('../images/quotes.jpeg');
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+#quotesSection div p {
+	position: relative;
+	z-index: 1;
+	font-size: 1.5em;
+	margin: 2.5vh 2.5vw;
+	width: 50vw;
+	font-style: italic;
 }
